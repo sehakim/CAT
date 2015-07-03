@@ -329,7 +329,7 @@
         <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
         <Param name="name" val="contMsg" valType="code" updates="None"/>
         <Param name="wrapWidth" val="" valType="code" updates="constant"/>
-        <Param name="color" val="Black" valType="str" updates="constant"/>
+        <Param name="color" val="White" valType="str" updates="constant"/>
         <Param name="text" val="Press any key to go on to the next set." valType="str" updates="constant"/>
         <Param name="stopVal" val="" valType="code" updates="constant"/>
         <Param name="durationEstim" val="" valType="code" updates="None"/>
@@ -349,7 +349,7 @@
         <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
         <Param name="name" val="exitMsg" valType="code" updates="None"/>
         <Param name="wrapWidth" val="" valType="code" updates="constant"/>
-        <Param name="color" val="Black" valType="str" updates="constant"/>
+        <Param name="color" val="White" valType="str" updates="constant"/>
         <Param name="text" val="Thank you !!&#10;You have completed the Experiment.&#10;Press any key to exit.&#10;" valType="str" updates="constant"/>
         <Param name="stopVal" val="" valType="code" updates="constant"/>
         <Param name="durationEstim" val="" valType="code" updates="None"/>
@@ -593,7 +593,7 @@
       <Param name="loopType" val="random" valType="str" updates="None"/>
       <Param name="nReps" val="1" valType="code" updates="None"/>
       <Param name="endPoints" val="[0, 1]" valType="num" updates="None"/>
-      <Param name="conditions" val="[{u'shape': u'square', u'inCategory': 0, u'number': 2, u'stcolor': u'white', u'corrAns': u'm'}, {u'shape': u'square', u'inCategory': 0, u'number': 1, u'stcolor': u'black', u'corrAns': u'm'}, {u'shape': u'square', u'inCategory': 0, u'number': 2, u'stcolor': u'black', u'corrAns': u'm'}, {u'shape': u'triangle', u'inCategory': 1, u'number': 2, u'stcolor': u'white', u'corrAns': u'z'}, {u'shape': u'triangle', u'inCategory': 0, u'number': 1, u'stcolor': u'white', u'corrAns': u'm'}, {u'shape': u'square', u'inCategory': 0, u'number': 1, u'stcolor': u'white', u'corrAns': u'm'}, {u'shape': u'triangle', u'inCategory': 0, u'number': 1, u'stcolor': u'black', u'corrAns': u'm'}, {u'shape': u'triangle', u'inCategory': 1, u'number': 2, u'stcolor': u'black', u'corrAns': u'z'}]" valType="str" updates="None"/>
+      <Param name="conditions" val="[{u'shape': u'square', u'inCategory': 0, u'corrAns': u'm', u'number': 2, u'stcolor': u'white'}, {u'shape': u'square', u'inCategory': 0, u'corrAns': u'm', u'number': 1, u'stcolor': u'black'}, {u'shape': u'square', u'inCategory': 0, u'corrAns': u'm', u'number': 2, u'stcolor': u'black'}, {u'shape': u'triangle', u'inCategory': 1, u'corrAns': u'z', u'number': 2, u'stcolor': u'white'}, {u'shape': u'triangle', u'inCategory': 0, u'corrAns': u'm', u'number': 1, u'stcolor': u'white'}, {u'shape': u'square', u'inCategory': 0, u'corrAns': u'm', u'number': 1, u'stcolor': u'white'}, {u'shape': u'triangle', u'inCategory': 0, u'corrAns': u'm', u'number': 1, u'stcolor': u'black'}, {u'shape': u'triangle', u'inCategory': 1, u'corrAns': u'z', u'number': 2, u'stcolor': u'black'}]" valType="str" updates="None"/>
       <Param name="Selected rows" val="" valType="str" updates="None"/>
     </LoopInitiator>
     <Routine name="trialtest"/>
